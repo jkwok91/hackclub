@@ -164,7 +164,7 @@ It's not very compelling having a static player just sitting there. Why doesn't 
 
 Oh yes, because we haven't added that code yet. We will do that now.
 
-Our sprite has a property called `position`, and we can shift the position in order to create motion. The `position` property itself has two properties: `x` and `y`, which describe placement along the x and y axes, respectively. Since we want to move the player horizontally, we'll be changing the x value. To do this, we can add this line to `draw()`:
+Our sprite has a property called `position`, and we can shift the position in order to create motion. The `position` property itself has two properties: `x` and `y`, which describe placement along the x and y axes, respectively. Since we want to move the player horizontally, we'll be changing the x value. To do this, we can add this line to `draw()`, above `drawSprites()`:
 
 ```js
 player.position.x = player.position.x + 1;
